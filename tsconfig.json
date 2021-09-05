@@ -9,6 +9,8 @@
     "importHelpers": true,
     "jsx": "react",
     "alwaysStrict": true,
+    "declaration": true,
+    "declarationMap": true,
     "sourceMap": true,
     "noFallthroughCasesInSwitch": true,
     "noImplicitReturns": false,
