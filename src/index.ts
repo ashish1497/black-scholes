@@ -1,5 +1,4 @@
-const multiple = (a: number, b: number) => {
-  const result: number = a * b;
-
-  return result;
-};
+export * from './cdf';
+export * from './dValues';
+export * from './optionPrice';
+export * from './impliedVolatility';

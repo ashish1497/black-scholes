@@ -2,7 +2,8 @@
   "name": "black-scholes-model",
   "version": "1.0.0",
   "description": "Complete plug and play Black-Scholes-Merton model for option pricing with features including implied volatility and Greeks.",
-  "main": "src/index.js",
+  "main": "build/src/index.js",
+  "types": "@types",
   "scripts": {
     "start": "node build/src/index.js",
     "start-dev": "nodemon build/src/index.js",
@@ -30,6 +31,10 @@
     "option-pricing"
   ],
   "author": "Ashish Bajaj",
+  "bugs": {
+    "url": "https://github.com/ashish1497/black-scholes/issues"
+  },
+  "homepage": "https://github.com/ashish1497/black-scholes",
   "license": "ISC",
   "devDependencies": {
     "@types/express": "^4.17.13",
@@ -47,6 +52,7 @@
     "typescript": "^4.4.2"
   },
   "dependencies": {
+    "mathjs": "^9.4.4",
     "tslib": "^1.14.1"
   }
 }
