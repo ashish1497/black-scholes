@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Complete plug and play Black-Scholes-Merton model for option pricing with features including implied volatility and Greeks.",
   "main": "build/src/index.js",
-  "types": "@types",
+  "types": "build/@types/index.d.ts",
   "scripts": {
     "start": "node build/src/index.js",
     "start-dev": "nodemon build/src/index.js",

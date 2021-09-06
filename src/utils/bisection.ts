@@ -1,4 +1,4 @@
-import { IBisection } from '../../@types';
+import { IBisection } from '../@types';
 
 export const bisection = (params: IBisection) => {
   const {
@@ -12,14 +12,14 @@ export const bisection = (params: IBisection) => {
 
   let _a = lowStartVolatility;
   let _b = highStartVolatility;
-  let iterRun = 0;
+  // let iterRun = 0;
 
-  if (iterRun > iterations) {
-    return null;
-  }
+  // if (iterRun > iterations) {
+  //   return null;
+  // }
 
   for (let i = 0; i < iterations; i++) {
-    iterRun += 1;
+    // iterRun += 1;
     const c = (_a + _b) / 2;
     const y = fn(c);
     const error = Math.abs(y - seekValue);

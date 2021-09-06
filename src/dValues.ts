@@ -1,4 +1,4 @@
-import { dValueReturnType, IDValues } from '../@types';
+import { dValueReturnType, IDValues } from './@types';
 
 const d1 = ({ S, K, t, rf, sigma }: IDValues): dValueReturnType => {
   if (!S) {

@@ -5,7 +5,7 @@ import {
   ImpliedVolatilityReturnType,
   IOptionPrice,
   IBisection,
-} from '../@types';
+} from './@types';
 
 export const impliedVolatility = (
   params: IImpliedVolatility,
