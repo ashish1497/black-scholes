@@ -1,6 +1,6 @@
 {
   "name": "black-scholes-model",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Complete plug and play Black-Scholes-Merton model for option pricing with features including implied volatility and Greeks.",
   "type": "module",
   "main": "lib/index.js",
