@@ -1,5 +1,5 @@
 import { erf } from 'mathjs';
-import { CDFReturnType, ICdfInputs } from './@types';
+import { CDFReturnType, ICdfInputs } from '../@types';
 
 export const cdf = ({ x, mean, vol }: ICdfInputs): CDFReturnType => {
   if (!x) {

@@ -1,4 +1,4 @@
-import { IBisection } from '../@types';
+import { IBisection } from '../../@types';
 
 export const bisection = (params: IBisection) => {
   const {

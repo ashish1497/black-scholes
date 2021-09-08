@@ -1,5 +1,5 @@
 import { cdf, dValue } from './index';
-import { IOptionPrice, OptionPriceReturnType } from './@types';
+import { IOptionPrice, OptionPriceReturnType } from '../@types';
 
 export const optionPrice = (params: IOptionPrice): OptionPriceReturnType => {
   const { K, S, rf, sigma, t, type } = params;
