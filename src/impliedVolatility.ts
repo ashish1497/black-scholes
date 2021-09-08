@@ -1,11 +1,20 @@
-import { optionPrice } from '.';
-import { bisection } from './utils/bisection';
-import {
-  IImpliedVolatility,
-  ImpliedVolatilityReturnType,
-  IOptionPrice,
-  IBisection,
-} from '../@types';
+import { optionPrice, IOptionPrice } from './optionPrice';
+import { bisection, IBisection } from './utils/bisection';
+
+type ImpliedVolatilityReturnType = number;
+
+interface IImpliedVolatility {
+  S: number;
+  K: number;
+  t: number;
+  rf: number;
+  derivativePrice: number;
+  type: 'call' | 'put';
+  lowStartVol?: number;
+  highStartVol?: number;
+  tolerance?: number;
+  iteration?: number;
+}
 
 export const impliedVolatility = (
   params: IImpliedVolatility,

@@ -1,4 +1,11 @@
-import { IBisection } from '../../@types';
+export interface IBisection {
+  seekValue: number;
+  lowStartVolatility: number;
+  highStartVolatility: number;
+  tolerance: number;
+  iterations: number;
+  fn(volatility: number): number;
+}
 
 export const bisection = (params: IBisection) => {
   const {

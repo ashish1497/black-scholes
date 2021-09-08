@@ -1,9 +1,13 @@
 {
   "name": "black-scholes-model",
-  "version": "1.0.3",
+  "version": "1.0.9",
   "description": "Complete plug and play Black-Scholes-Merton model for option pricing with features including implied volatility and Greeks.",
-  "main": "lib/src/index.js",
-  "types": "lib/@types/index.d.ts",
+  "type": "module",
+  "main": "lib/index.js",
+  "files": [
+    "src",
+    "lib"
+  ],
   "scripts": {
     "start": "node build/src/index.js",
     "start-dev": "nodemon build/src/index.js",
@@ -56,6 +60,7 @@
     "typescript": "^4.4.2"
   },
   "dependencies": {
+    "black-scholes-model": "^1.0.9",
     "mathjs": "^9.4.4",
     "tslib": "^1.14.1"
   }

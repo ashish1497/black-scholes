@@ -1,4 +1,11 @@
-import { dValueReturnType, IDValues } from '../@types';
+type dValueReturnType = number;
+interface IDValues {
+  S: number;
+  K: number;
+  t: number;
+  rf: number;
+  sigma: number;
+}
 
 const d1 = ({ S, K, t, rf, sigma }: IDValues): dValueReturnType => {
   if (!S) {
