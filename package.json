@@ -60,7 +60,6 @@
     "typescript": "^4.4.2"
   },
   "dependencies": {
-    "black-scholes-model": "^1.0.9",
     "mathjs": "^9.4.4",
     "tslib": "^1.14.1"
   }
